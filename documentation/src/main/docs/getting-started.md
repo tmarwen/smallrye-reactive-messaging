@@ -6,7 +6,7 @@ SmallRye Reactive Messaging can also be used standalone, or with [Open Liberty](
 First, go to [code.quarkus.io](https://code.quarkus.io/?g=io.smallrye&a=getting-started-with-reactive-messaging&e=smallrye-reactive-messaging).
 Select the `smallrye-reactive-messaging` extension (already done if you use the link), and then click on the generate button to download the code.
 
-One downloaded, unzip the project and import it in your IDE.
+Once downloaded, unzip the project and import it in your IDE.
 
 If you look at the `pom.xml` file, you will see the following dependency:
 
@@ -40,7 +40,7 @@ This class contains a set of methods:
 Each of these methods are connected through *channels*.
 
 Now, let's see this in action.
-For the terminal, run:
+From the terminal, run:
 
 ```shell
 > ./mvnw quarkus:dev
@@ -56,5 +56,5 @@ Running the previous example should give the following output:
 ```
 
 Of course, this is a very simple example.
-To go further, let's have a look to the core [concepts](concepts/concepts.md) behind SmallRye Reactive Messaging.
+To go further, let's have a look at the core [concepts](concepts/concepts.md) behind SmallRye Reactive Messaging.
 
